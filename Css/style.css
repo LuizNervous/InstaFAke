@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 24, 24);
+  justify-content: center;
+  min-width: 100vh;
+}
+
+
+header {
+  padding: 10px;
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 1.5px;
+
+  color: rgb(194, 42, 42);
+}
+
+header img {
+  border-radius: 31%;
+  width: 119px;
+}
+section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+width: 600px;
+
+  padding: 20px;
+  border-radius: 10px;
+  height: 100%;
+  color: rgb(237, 146, 255);
+  background-color: rgb(34, 34, 34);
+  margin: 200px;
+}
+h1{
+    color: rgb(231, 113, 255);
+  margin-bottom: 20px;
+}
+a {
+  color: rgb(189, 177, 162);
+}
+
+input {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 6px;
+  border-color: rgb(237, 146, 255);
+  font-size: 17px;
+  padding: 6px;
+  width: 70%;
+  margin-bottom: 15px;
+}
+.sumir{
+  display: none;
+
+}
+
+.Entrar {
+ transition: all 0.3s;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+
+}
+
+.Entrar button {
+  background: linear-gradient(to right, rgb(221, 35, 35), rgb(255, 68, 255), rgb(100, 255, 100));
+  width: 100%;
+  cursor: pointer;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+transition: all 0.3s;
+ margin-top: 10px;
+}
+.Entrar button:hover{
+  opacity: 0.8;
+}
+.Entrar button:active{
+  transform: scale(0.9);
+  opacity: 0.5;
+}
+.Entrar a:hover{
+  color: rgb(226, 203, 174);
+}

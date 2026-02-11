@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar</title>
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+  <header>
+    <h2>IStFake</h2> <img src="imagens/instafake.png" alt="">
+  </header>
+  <section>
+  <main>
+    <div id="login">
+      <h1>Login</h1>
+
+      <input type="email" id="login-email" placeholder="Email">
+
+      <input type="password" id="login-senha" placeholder="Senha">
+
+      <div class="Entrar"><a href="#" onclick="alternarTelas()">Faça seu cadastro aqui</a><button onclick="fazerLogin()">
+          <h3>Entrar</h3>
+        </button></div>
+    </div>
+    <div id="cadastro" class="sumir">
+      <h1>Criar Conta</h1>
+      <input type="text" name="" id="cadastro-nome" placeholder="Escreva seu nome completo">
+      <input type="email"id="cadastro-email" placeholder="Email">
+
+      <input type="password" id="cadastro-senha" placeholder="Senha">
+
+      <div class="Entrar"><a href="#" onclick="alternarTelas()">Já tem conta? clique aqui</a><button onclick="fazerCadastro()">
+          <h3>Entrar</h3>
+        </button></div>
+    </div>
+
+  </main></section>
+  <script src="login.js"></script>
+</body>
+
+</html>

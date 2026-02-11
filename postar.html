@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Criar Post</title>
+    <link rel="stylesheet" href="Css/style3.css">
+    
+</head>
+
+<body>
+
+    <div class="form-post">
+        <h2>Criar nova publicação</h2>
+
+        <input type="file" id="input-foto" accept="image/*">
+
+        <img id="preview">
+
+        <textarea id="input-legenda" placeholder="Escreva uma legenda..."></textarea>
+
+        <button onclick="enviarPost()">Compartilhar</button>
+        <br><br>
+        <button onclick="window.location.href='feed.html'" style="background:#b1b1b1cc">Cancelar</button>
+    </div>
+
+    <script src="postar.js"></script>
+</body>
+
+</html>

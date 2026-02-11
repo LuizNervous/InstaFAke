@@ -1,0 +1,60 @@
+/* Reset básico */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+
+body {
+    background-color: #3f3f3f; /* Cor de fundo cinza clarinho do Insta */
+}
+header img{
+    max-width: 20px;
+    border-radius: 10px;
+}
+.macaco{
+    color: white;
+    background-color: #3f3f3f;
+}
+/* Barra do topo */
+.top-bar {
+    color: aliceblue;
+    background: rgb(32, 32, 32);
+    border-bottom: 1px solid #3f3f3f;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Fica fixo no topo */
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo { font-weight: bold; font-size: 1.5rem; }
+
+/* Ajuste do container para não ficar escondido atrás do topo */
+.feed-container {
+    max-width: 600px; /* Largura máxima estilo celular/feed */
+    margin: 80px auto 0; /* Centraliza na tela */
+    padding-bottom: 50px;
+}
+
+/* O Estilo do Cartão (Post) */
+.post {
+    background: rgb(88, 88, 88);
+    border: 1px solid #1f1f1f;  
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 3px;
+}
+
+.post-header {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.post img {
+    width: 100%; /* A imagem ocupa 100% da largura do post */
+    display: block;
+}
+
+.post-footer {
+    padding: 10px;
+}

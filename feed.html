@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insta fake</title>
+  <link rel="stylesheet" href="Css/style2.css">
+  <style>
+    .flex {
+      display: flex;
+      padding:5px  ;
+      align-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(0, 0, 0);
+      cursor: pointer;
+  border: none;
+  border-radius: 10px;
+transition: all 0.3s;
+
+    }
+    .flex h4{
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="top-bar">
+    <div class="logo">InstaFake</div>
+    <div id="relogio"></div>
+    <button class="flex">
+
+      <h4>Criar post</h4><img src="imagens/+.png" alt="">
+    </button>
+  </header>
+
+  <main class="feed-container">
+
+
+    <div id="lista-posts">
+
+    </div>
+
+  </main>
+
+  <script src="feed.js"></script>
+</body>
+
+</html>
